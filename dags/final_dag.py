@@ -125,7 +125,7 @@ dag = DAG('AWS_Transformation', concurrency=3, schedule_interval=None, default_a
 
 client(region_name='us-east-1')
 
-#session=boto3.Session(aws_access_key_id='AKIAYBIYAGKJQSWZV6LT',aws_secret_access_key='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')
+#session=boto3.Session(aws_access_key_id='',aws_secret_access_key='')
 s3 = boto3.resource('s3')
 
 def read_config(app_config):
